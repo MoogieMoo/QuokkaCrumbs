@@ -1,6 +1,6 @@
 # QuokkaCrumbs
 
-##### Table to Showcase our Data
+##### *Table to Showcase Our Data*
 
 | Array Size       | Time                  |
 |------------------|-----------------------|
