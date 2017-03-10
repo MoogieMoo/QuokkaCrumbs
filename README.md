@@ -1,4 +1,5 @@
 # QuokkaCrumbs
+#### Brian Kwong, Max Chan, Maggie Xia
 
 ##### *Table to Showcase Our Data*
 
