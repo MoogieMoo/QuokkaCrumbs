@@ -1,5 +1,6 @@
-public class ExecTime{
-    public static void main(String[] args){
+public class ExecTime {
+    
+    public static void main( String[] args ) {
 	int max = 10000;
 	
 	int[] ten;
@@ -14,12 +15,14 @@ public class ExecTime{
 	
 	int tenTime = 0;
 
-	for (int x = 0; x < 1000; x ++){
+	for ( int x = 0; x < 1000; x++ ) {
+	    
 	    long y = System.nanoTime();
 	    QuickSort.qsort(ten);
 	    long z = System.nanoTime();
 	    tenTime += (z - y);
 	    QuickSort.shuffle(ten);
+	    
 	}
 
 	tenTime /= 1000; 
@@ -28,12 +31,14 @@ public class ExecTime{
 	
 	int hunTime = 0;
 
-	for (int x = 0; x < 1000; x ++){
+	for ( int x = 0; x < 1000; x++ ) {
+	    
 	    long y = System.nanoTime();
 	    QuickSort.qsort(hun);
 	    long z = System.nanoTime();
 	    hunTime += (z - y);
 	    QuickSort.shuffle(hun);
+	    
 	}
 
 	hunTime /= 1000; 
@@ -43,12 +48,14 @@ public class ExecTime{
 
 	int thouTime = 0;
 
-	for (int x = 0; x < 1000; x ++){
+	for ( int x = 0; x < 1000; x++ ){
+	    
 	    long y = System.nanoTime();
 	    QuickSort.qsort(thou);
 	    long z = System.nanoTime();
 	    thouTime += (z - y);
 	    QuickSort.shuffle(thou);
+	    
 	}
 
 	thouTime /= 1000; 
@@ -58,12 +65,14 @@ public class ExecTime{
 
 	int hunthouTime = 0;
 
-	for (int x = 0; x < 100; x ++){
+	for ( int x = 0; x < 100; x++ ) {
+	    
 	    long y = System.nanoTime();
 	    QuickSort.qsort(hunthou);
 	    long z = System.nanoTime();
 	    hunthouTime += (z - y);
 	    QuickSort.shuffle(hunthou);
+	    
 	}
 
 	hunthouTime /= 100; 
