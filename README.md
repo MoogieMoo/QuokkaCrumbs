@@ -1,9 +1,9 @@
 # QuokkaCrumbs
 #### Brian Kwong, Max Chan, Maggie Xia
 
-##### *Table to Showcase Our Data*
+##### *Table to Showcase Our Data* (Averaged over 1000 trials)
 
-| Array Size       | Time                  |
+| Array Size       | Time (nanoseconds)    |
 |------------------|-----------------------|
 | 10               | 3,236                 |
 | 100              | 8,498                 |
