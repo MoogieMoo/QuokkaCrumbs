@@ -1,5 +1,15 @@
 # QuokkaCrumbs
 
+##### Table to Showcase our Data
+
+| Array Size       | Time                  |
+|------------------|-----------------------|
+| 10               | 3,236                 |
+| 100              | 8,498                 |
+| 1,000            | 47,900                |
+| 10, 000          | 6,772,927             |
+
+
 ### Our assessment of QuickSort’s Big-Oh runtime classification, abstracted to the algorithm level, in the
 + best case:
 + average or most likely case:
